@@ -30,6 +30,16 @@
             android:layout_marginTop="10dp"
             android:src="@drawable/ic_launcher_background"/>
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.4"
+            android:src="@android:color/black"/>
+
 
         <ImageView
             android:id="@+id/imagePlay"

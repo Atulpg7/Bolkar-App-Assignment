@@ -117,6 +117,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
                     // Sperating dataset fetched in data tag
                     JSONArray jsonArray2=new JSONArray(jo.getString("data"));
 
@@ -168,7 +169,6 @@ public class MainActivity extends AppCompatActivity {
             super.onPostExecute(aVoid);
 
             verticalAdapter.notifyDataSetChanged();
-
 
         }
     }
